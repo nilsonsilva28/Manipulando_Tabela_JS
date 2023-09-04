@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tabela | Js </title>
+</head>
+<body>
+         
+
+    <main class="cPessoa">
+        <div class="lineInput">
+            <label>Nome</label> 
+            <input type="text" placeholder="Digite seu nome" id="nome" >
+        </div>
+       
+        <div class="lineInput">
+            <label>Sobrenome</label>
+            <input type="text" placeholder="Digite seu Sobrenome" id="sobrenome">
+        </div>     
+
+        <div class="lineInput">
+            <label>E-mail</label>
+            <input type="text" placeholder="Digite seu E-mail" id="email">
+        </div>
+
+        <div class="lineInput">
+            <label>Altura</label>
+            <input type="text" placeholder="Digite sua altura" id="altura">
+        </div>    
+     
+        
+        <div class="lineInput">
+            <label>Sexo</label> 
+            <input type="text" placeholder="Digite seu sexo" id="sexo">
+        </div>
+
+        <button onclick="pessoa.salvar()">Cadastrar</button>
+    </main>
+        
+    
+    <div class="dtPessoa">
+                                                                                
+        <table >
+
+            <thead>
+                
+                    <th>Id</th>
+                    <th>Nome</th>
+                    <th>Sobrenome</th>
+                    <th>Email</th>
+                    <th>Altura</th>
+                    <th>Sexo</th>
+                    
+            </thead>
+
+            <tbody id="tbody">
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+                                                                                    
+</body>
+<script src="script.js"></script>
+</html>

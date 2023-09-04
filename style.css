@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+    
+}
+
+body{
+    background: #8B8989; 
+}
+
+.cPessoa{
+    font:14px;
+    margin-left: 45%;
+    margin-top: 120px;
+    
+}
+
+.lineInput{
+    display: grid;
+    font-weight: bolder;
+    font-size:20px;
+    
+    
+}
+
+
+input{
+    padding: 8px;
+    font-size:15px;
+    border-radius: 5px;
+    width: 25%;
+    border: none;
+}
+
+button{
+    padding: 15px;
+    width: 26.7%;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: .4s;
+    border: none;
+    
+}
+
+button:hover{
+    background: #c2c2c2;
+}
+
+
+.dtPessoa{
+    font:14px;
+    margin-left: 27%;
+    margin-top: 80px;
+}
+
+
+table th {
+    width: 140px;
+    
+}
+
+table{
+    background: white;
+    text-align: center;
+    
+}
+
